@@ -2,6 +2,7 @@
 
 create: /etc/systemd/system/mapol_api.service
 
+```
 [Unit]
 Description=MA Politics API
 After=network.target
@@ -14,6 +15,7 @@ Restart=always
 
 [Install]
 WantedBy=multi-user.target
+```
 
 # install packages
 
